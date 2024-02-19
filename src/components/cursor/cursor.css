@@ -1,0 +1,16 @@
+
+/* 隐藏hover时的SVG */
+.hovered-svg {
+    display: none;
+  }
+  
+  /* 当hover时，隐藏默认SVG，显示hover SVG */
+  .left-arrow:hover .default-svg,
+  .right-arrow:hover .default-svg {
+    display: none;
+  }
+  
+  .left-arrow:hover .hovered-svg,
+  .right-arrow:hover .hovered-svg {
+    display: block;
+  }
